@@ -85,7 +85,16 @@ The project uses a synthetically generated campus water consumption dataset.
 - **Synthetic anomaly records:** 271
 
 The dataset contains information about building IDs, building types, occupancy, weather conditions, daily water consumption, historical consumption features, and anomaly labels.
+smart_water_consumption_dataset.csv` is a **synthetic** dataset. It is not real meter data. I generated it with `generate_water_dataset.py`, using per-person water-use figures from published campus reports as the starting point.
 
+**Sources used**
+- Crescent Institute, [Water Consumption Details](https://crescent.education/wp-content/uploads/2021/11/6.4.2-b-Crescent-Water-Consumption-Details.pdf)
+- Redeemer's University, [Water Management Report 2023](<https://sdg.run.edu.ng/assets/img/Redeemer's-University-Water-Management-Report-2023.pdf>)
+- IIT Bombay, [campus water report](https://www.insightiitb.org/wp-content/uploads/2015/10/18.1-final-draft.pdf)
+- CIT Chennai, [SDG 6 report](https://www.citchennai.edu.in/wp-content/uploads/2024/11/sdg/SDG_6_17.pdf)
+- Iversen, J. O. (2010). *Analysis of Potable Water Use at Yale University.* Yale University. Used as a reference for water use by building type.
+
+The building list, occupancy patterns, weather, holiday calendar (May, June, July and December), noise and anomalies are my own assumptions.
 **Note:** The dataset is synthetic and does not represent actual measured campus water consumption. Therefore, model results demonstrate performance on the generated dataset and require validation using real campus data before real-world deployment.
 
 ## 7. Project Folder Structure
