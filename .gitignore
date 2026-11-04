@@ -1,0 +1,24 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated model
+model/*.pkl
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
+
+# Environment variables and secrets
+.env
+# Generated prediction outputs
+outputs/*.csv
+outputs/*.png
